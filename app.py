@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
 import random
 import string
 
@@ -49,4 +48,4 @@ fig = px.bar(df, x="Condition", y="Met", color="Met", text="Met", title="Passwor
 st.plotly_chart(fig, use_container_width=True)
 
 st.markdown("---")
-st.markdown("### Made by **MUSSA** 🔒")
+st.markdown("### Made by **Iftikhar** 🔒")
